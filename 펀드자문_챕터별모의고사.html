@@ -72,13 +72,17 @@ html[data-theme] .study-mock > header{background:var(--study-surface);color:var(
 html[data-theme="dark"] .site-home-bar{background:#1b2838;border-color:#43576d}
 html[data-theme="dark"] .site-home-bar .site-home-button{background:#263d55;color:#f1f7ff;border-color:#7894b1}
 @media print{.site-home-bar{display:none!important}}
+</style><style id="exam-threshold-style">
+.chapter-threshold{font-size:13px;line-height:1.55;margin-top:10px}
+.chapter-threshold .warning{color:#ffb3b3;font-weight:750}
+.chapter-threshold .met{color:#9cf0c4;font-weight:750}.chapter-set-threshold{font-size:12px;line-height:1.5}.chapter-set-threshold .warning{color:#a7202b;font-weight:750}.chapter-set-threshold .met{color:#167547;font-weight:750}html[data-theme="dark"] .chapter-set-threshold .warning{color:#ff9ea7}html[data-theme="dark"] .chapter-set-threshold .met{color:#80dfad}
 </style></head><body><nav class="site-home-bar" aria-label="메인 페이지 이동"><a class="site-home-button" href="index.html">Home</a></nav>
 <a class="skip" href="#workspace">문제 영역으로 이동</a>
-<header class="header"><div class="wrap"><div class="header-top"><div><div class="eyebrow">FUND ADVISOR · CHAPTER PRACTICE · 2026</div><h1>챕터별 모의고사</h1></div><button type="button" id="theme-toggle" class="theme" aria-pressed="false">다크모드</button></div><p>개념을 읽은 뒤, 사례에 적용하고 계산으로 확인하세요.</p><div class="badges"><span>8개 챕터</span><span>개념 160 + 심화 160</span><span>4지선다·정답 1개</span><span>클릭 즉시 해설 공개</span></div><nav class="crumbs" aria-label="학습자료"><a href="펀드자문_학습노트_이해학습판.html">이해학습판 ↗</a><a href="펀드자문_모의고사(빈출)01.html">빈출 모의고사 100문항 ↗</a><a href="./">학습 첫 화면 ↗</a></nav></div></header>
+<header class="header"><div class="wrap"><div class="header-top"><div><div class="eyebrow">FUND ADVISOR · CHAPTER PRACTICE · 2026</div><h1>챕터별 모의고사</h1></div><button type="button" id="theme-toggle" class="theme" aria-pressed="false">다크모드</button></div><p>개념을 읽은 뒤, 사례에 적용하고 계산으로 확인하세요.</p><p id="chapter-threshold" class="chapter-threshold" aria-live="polite"></p><div class="badges"><span>8개 챕터</span><span>개념 160 + 심화 160</span><span>4지선다·정답 1개</span><span>클릭 즉시 해설 공개</span></div><nav class="crumbs" aria-label="학습자료"><a href="펀드자문_학습노트_이해학습판.html">이해학습판 ↗</a><a href="펀드자문_모의고사(빈출)01.html">빈출 모의고사 100문항 ↗</a><a href="./">학습 첫 화면 ↗</a></nav></div></header>
 <main class="wrap"><section class="intro" aria-labelledby="chapter-list-title"><h2 id="chapter-list-title">읽은 챕터를 골라 시작하세요.</h2><p>각 챕터는 개념 20문항과 심화 20문항으로 구성됩니다. 선택한 답은 챕터·난도별로 저장됩니다.</p><div id="chapter-grid" class="chapter-grid" aria-label="8개 챕터 선택"></div><p id="overall-progress" class="overview-progress" aria-live="polite"></p><details class="notice"><summary>2026년 대비 출제 기준과 이용 안내</summary><ul><li>이해학습판의 8개 챕터·80개 개념에 맞춰 새로 작성한 학습용 문항입니다. 실제 시험문제나 기출 복원본은 아닙니다.</li><li>8개 챕터는 학습 구분입니다. 실제 시험의 과목 구분·배점 비중을 40문항씩 재현한 것은 아닙니다.</li><li>법규의 일반 원칙과 적용조건을 함께 묻습니다. 별도 특례가 없는 일반기준 문제는 해당 조건을 밝혔습니다. 현행 법령 보완과 시험 출제범위는 다를 수 있으므로 응시 회차의 표준교재·개정내역·공지를 우선 확인하세요.</li><li>문항별 정답은 1개입니다. 계산문제는 제시한 가정·단위·반올림 기준을 따릅니다. 보기 선택 즉시 정답과 해설이 열립니다. 보기를 다시 선택할 수 있고 관련 개념으로 돌아가 복습할 수 있습니다.</li><li>연습시간은 개념편 20–25분, 심화편 30–35분을 권합니다. 공식 시험의 제한시간이 아닌 학습용 제안입니다.</li><li>기록은 현재 브라우저에만 저장됩니다. 기기 간 자동 동기화는 지원하지 않습니다.</li></ul></details></section>
 <section id="workspace" class="workspace" aria-labelledby="set-title"><div class="set-heading"><div><div id="chapter-kicker" class="eyebrow" style="color:var(--accent)"></div><h2 id="set-title" tabindex="-1"></h2><p id="set-description"></p></div><a id="back-to-chapter" class="back-note" href="펀드자문_학습노트_이해학습판.html">이 챕터 개념 읽기 ↗</a></div>
 <div class="level-tabs" role="tablist" aria-label="문제 난도"><button type="button" class="level-tab" id="level-basic" role="tab" aria-controls="quiz-panel" aria-selected="true" data-level="basic">개념 20문항</button><button type="button" class="level-tab" id="level-advanced" role="tab" aria-controls="quiz-panel" aria-selected="false" data-level="advanced" tabindex="-1">심화 20문항</button></div>
-<div class="toolbar"><div class="counts" id="set-counts" aria-live="polite"></div><button type="button" class="action" id="show-wrong" aria-pressed="false">오답·미응답만</button><button type="button" class="action" id="retry-set">현재 20문항 다시 풀기</button></div><progress id="quiz-progress" class="quiz-progress" max="20" value="0" aria-label="현재 세트 응답 진도"></progress><div id="question-jumps" class="jump-grid" aria-label="문항 바로가기"></div>
+<div class="toolbar"><div class="counts" id="set-counts" aria-live="polite"></div><div id="chapter-set-threshold" class="chapter-set-threshold" aria-live="polite"></div><button type="button" class="action" id="show-wrong" aria-pressed="false">오답·미응답만</button><button type="button" class="action" id="retry-set">현재 20문항 다시 풀기</button></div><progress id="quiz-progress" class="quiz-progress" max="20" value="0" aria-label="현재 세트 응답 진도"></progress><div id="question-jumps" class="jump-grid" aria-label="문항 바로가기"></div>
 <p id="storage-status" class="status" role="status"></p><p id="feedback" class="status" role="status"></p>
 <div id="quiz-panel" role="tabpanel" aria-labelledby="level-basic"><div id="questions"></div></div>
 <section id="result" class="result" aria-label="풀이 요약" hidden></section><p class="grade-note">보기를 클릭하면 바로 채점됩니다. 각 문항의 해설을 읽고 다음 문제를 풀어보세요.</p></section></main>
@@ -121,6 +125,13 @@ function updateOverview(){
 function updateProgress(){
  const t=scoreFor(key());
  byId('set-counts').textContent=`풀이 ${t.answered} / 20 · 정답 ${t.correct} · 오답 ${t.wrong} · 남은 ${t.blank}`;
+ const subjectStatus=t.correct>=10?'50% 기준 확보':t.wrong>10?'과락 · 재선택 필요':`50%까지 ${10-t.correct}개`;
+ const totalStatus=t.correct>=14?'70% 기준 확보':t.wrong>6?'70% 미달 · 재선택 필요':`70%까지 ${14-t.correct}개`;
+ const subjectClass=t.correct>=10?'met':t.wrong>10?'warning':'';
+ const totalClass=t.correct>=14?'met':t.wrong>6?'warning':'';
+ byId('chapter-threshold').innerHTML=`현재 20문항 연습 기준 · 오답 ${t.wrong}/10 허용 <span class="${subjectClass}">${subjectStatus}</span> · 총점 ${t.correct}/20 <span class="${totalClass}">${totalStatus}</span>`;
+ byId('chapter-set-threshold').innerHTML=byId('chapter-threshold').innerHTML;
+
  byId('quiz-progress').value=t.answered;
  byId('show-wrong').setAttribute('aria-pressed',String(wrongOnly));
  byId('question-jumps').innerHTML=questions().map((q,i)=>{const a=current().answers[i],cls=a===null?'':a===q.answer?'correct':'wrong',status=a===null?'미응답':a===q.answer?'정답':'오답';return `<button type="button" class="${cls}" data-jump="${i}" aria-label="${i+1}번 ${status}">${i+1}</button>`}).join('');
