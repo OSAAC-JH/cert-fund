@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="해커스 펀드투자권유자문인력 필수암기공식 30개. 수익증권, 채권, 주식, 위험조정성과, 파생상품, 부동산펀드 공식을 주제별로 확인하세요.">
+  <title>필수암기공식 30 | 펀드자문 학습노트</title>
+  <script>
+    try {
+      const saved = localStorage.getItem('fund-study-theme-v1');
+      if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+    } catch {}
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #eef3f8;
+      --surface: #fff;
+      --formula: #f2f6fc;
+      --text: #172b40;
+      --muted: #4b6178;
+      --accent: #15548a;
+      --line: #cad7e4;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme]) {
+        color-scheme: dark;
+        --background: #111c27;
+        --surface: #192735;
+        --formula: #142230;
+        --text: #edf4fb;
+        --muted: #b5c7db;
+        --accent: #a2d1ff;
+        --line: #40556c;
+      }
+    }
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --background: #111c27;
+      --surface: #192735;
+      --formula: #142230;
+      --text: #edf4fb;
+      --muted: #b5c7db;
+      --accent: #a2d1ff;
+      --line: #40556c;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--background); color: var(--text); font: 16px/1.65 system-ui, -apple-system, "Noto Sans KR", "Malgun Gothic", sans-serif; word-break: keep-all; }
+    a { color: var(--accent); }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    .site-home-bar { background: var(--surface); border-bottom: 1px solid var(--line); padding: 10px 18px; }
+    .site-home-button { display: inline-block; padding: 5px 14px; border: 1px solid var(--line); border-radius: 8px; font-size: 14px; font-weight: 650; text-decoration: none; }
+    .wrap { max-width: 58rem; margin-inline: auto; padding: 22px clamp(12px, 3.5vw, 30px) 44px; }
+    .intro, .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+    .intro { padding: clamp(16px, 4vw, 30px); }
+    h1, h2, h3 { line-height: 1.32; }
+    h1 { margin: 0 0 6px; font-size: clamp(1.8rem, 5vw, 2.6rem); }
+    h2 { margin: 0; font-size: 1.28rem; }
+    h3 { margin: 0 0 10px; font-size: 1.06rem; }
+    .source, .note, .page { color: var(--muted); font-size: .875rem; }
+    .source { margin: 0; }
+    .contents { margin-top: 18px; }
+    .contents ol { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: 7px; list-style: none; padding: 0; margin: 8px 0 0; }
+    .contents a { display: flex; justify-content: space-between; gap: 6px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; text-decoration: none; }
+    .contents a:hover, .site-home-button:hover { background: var(--formula); text-decoration: underline; }
+    .range, .number { font-variant-numeric: tabular-nums; }
+    .range { flex: none; color: var(--muted); font-size: .78rem; }
+    .topic { margin-top: 30px; scroll-margin-top: 12px; }
+    .topic-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 3px 10px; margin-bottom: 9px; }
+    .card { padding: clamp(10px, 2.5vw, 18px); margin-bottom: 9px; }
+    .number { color: var(--accent); margin-right: .42em; }
+    .equation { display: flex; align-items: center; flex-wrap: wrap; gap: 4px .36em; margin: 0; padding: 8px 10px; background: var(--formula); border-radius: 7px; font-size: max(.94rem, 15px); overflow-x: auto; }
+    .equation + .equation { margin-top: 5px; }
+    .equation math { font-size: 1.06em; }
+    .equation mtext { font-family: system-ui, -apple-system, "Noto Sans KR", "Malgun Gothic", sans-serif; }
+    .rounding { color: var(--accent); font-weight: 650; }
+    .note { margin: 6px 0 0; }
+    .note:first-of-type { margin: 0 0 7px; }
+    ul.note { padding-inline-start: 1.35em; }
+    footer { margin-top: 22px; font-size: .9rem; }
+    @media (max-width: 380px) {
+      #performance math { font-size: clamp(.8rem, 4vw, 1rem); }
+    }
+    @media print {
+      :root:not([data-theme]), :root[data-theme] { color-scheme: light; --background: #fff; --surface: #fff; --formula: #fff; --text: #000; --muted: #333; --accent: #123f67; --line: #bfc6cc; }
+      .site-home-bar, .contents, footer { display: none; }
+      .wrap { max-width: none; padding: 0; }
+      .card { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="site-home-bar" aria-label="메인 페이지 이동"><a class="site-home-button" href="../index.html">Home</a></nav>
+  <main class="wrap" id="top">
+    <header class="intro">
+      <h1>필수암기공식 30</h1>
+      <p class="source">해커스 펀드투자권유자문인력 · 원본 교재 640–645쪽</p>
+      <nav class="contents" aria-labelledby="contents-title">
+        <h2 id="contents-title">공식 목차</h2>
+        <ol>
+          <li><a href="#transactions">수익증권 입·출금 <span class="range">01–04</span></a></li>
+          <li><a href="#bonds">채권 <span class="range">05–10</span></a></li>
+          <li><a href="#stocks">주식 <span class="range">11–14</span></a></li>
+          <li><a href="#performance">위험조정성과 <span class="range">15–18</span></a></li>
+          <li><a href="#derivatives">파생상품 <span class="range">19–22</span></a></li>
+          <li><a href="#real-estate">부동산펀드 <span class="range">23–30</span></a></li>
+        </ol>
+      </nav>
+    </header>
+
+    <section class="topic" id="transactions" aria-labelledby="transactions-title">
+      <div class="topic-heading"><h2 id="transactions-title">수익증권 매매 시 입·출금 처리</h2><span class="page">교재 640쪽</span></div>
+      <article class="card" id="formula-01">
+        <h3><span class="number">01</span> 입금</h3>
+        <p class="note">금액입금, 단체입금, 현물입금</p>
+        <p class="equation"><span>매수좌수 = 저축금액 ÷</span> <math displaystyle="true"><mfrac><mtext>매수 시 기준가격</mtext><mn>1,000</mn></mfrac></math> <span class="rounding">→ 좌 미만 절상</span></p>
+        <p class="equation"><span>환매좌수 = 저축금액 ÷</span> <math displaystyle="true"><mfrac><mtext>환매 시 기준가격</mtext><mn>1,000</mn></mfrac></math> <span class="rounding">→ 좌 미만 절사</span></p>
+      </article>
+      <article class="card" id="formula-02">
+        <h3><span class="number">02</span> 금액환산</h3>
+        <p class="equation"><span>저축금액 = 매수좌수 ×</span> <math displaystyle="true"><mfrac><mtext>매수 시 기준가격</mtext><mn>1,000</mn></mfrac></math> <span class="rounding">→ 원 미만 절사</span></p>
+        <p class="equation"><span>지급금액 = 환매좌수 ×</span> <math displaystyle="true"><mfrac><mtext>환매 시 기준가격</mtext><mn>1,000</mn></mfrac></math> <span class="rounding">→ 원 미만 절상</span></p>
+      </article>
+      <article class="card" id="formula-03">
+        <h3><span class="number">03</span> 평가금액</h3>
+        <p class="equation"><span>평가금액 = 잔고좌수 ×</span> <math displaystyle="true"><mfrac><mtext>평가일 기준가격</mtext><mn>1,000</mn></mfrac></math> <span class="rounding">→ 원 미만 절상</span></p>
+      </article>
+      <article class="card" id="formula-04">
+        <h3><span class="number">04</span> 출금</h3>
+        <p class="note">금액출금, 좌수출금, 이익금출금, 이익분배금 및 상환금출금, 현물출금</p>
+        <p class="equation">출금금액 = 환매 시 평가금액 − 환매수수료 − 세액</p>
+        <p class="equation"><span>환매 시 평가금액 = 환매좌수 ×</span> <math displaystyle="true"><mfrac><mtext>환매 시 기준가격</mtext><mn>1,000</mn></mfrac></math> <span class="rounding">→ 원 미만 절상</span></p>
+        <p class="equation"><span>환매수수료 = 환매좌수 ×</span> <math displaystyle="true"><mfrac><mrow><mtext>환매 시 기준가격</mtext><mo>−</mo><mtext>매수 시 기준가격</mtext></mrow><mn>1,000</mn></mfrac></math> <span>× 환매수수료율</span> <span class="rounding">→ 원 미만 절사</span></p>
+        <p class="equation"><span>세액 = 과세소득 × 적용세율</span> <span class="rounding">→ 10원 미만 절사</span></p>
+      </article>
+    </section>
+
+    <section class="topic" id="bonds" aria-labelledby="bonds-title">
+      <div class="topic-heading"><h2 id="bonds-title">채권에 대한 기본적 이해</h2><span class="page">교재 641쪽</span></div>
+      <article class="card" id="formula-05">
+        <h3><span class="number">05</span> 채권가격변동률</h3>
+        <p class="equation"><span>채권가격변동률 =</span> <span>−수정듀레이션 × Δr</span> <span>+ 0.5 × 컨벡시티 × (Δr)<sup>2</sup></span></p>
+        <p class="note">Δr은 금리변동분입니다.</p>
+      </article>
+      <article class="card" id="formula-06">
+        <h3><span class="number">06</span> 듀레이션의 간편계산법</h3>
+        <p class="equation"><span>듀레이션 =</span> <math displaystyle="true"><mfrac><mrow><msup><mi>V</mi><mo>−</mo></msup><mo>−</mo><msup><mi>V</mi><mo>+</mo></msup></mrow><mrow><mn>2</mn><mi>V</mi><mo>×</mo><mi>dY</mi></mrow></mfrac></math></p>
+        <p class="note">V<sup>−</sup>는 금리 하락 시 가격, V<sup>+</sup>는 금리 상승 시 가격, V는 현재가격, dY는 금리변동분입니다. 예를 들어 0.5%는 0.005로 넣습니다.</p>
+      </article>
+      <article class="card" id="formula-07">
+        <h3><span class="number">07</span> 채권가격 계산</h3>
+        <p class="note">미래현금흐름할인법(Discounted Cash Flow)을 사용합니다.</p>
+        <p class="equation"><math displaystyle="true"><mi>PV</mi><mo>=</mo><mfrac><mi>FV</mi><mrow><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>r</mi><mo>)</mo></mrow><mi>n</mi></msup><mo>×</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>r</mi><mo>×</mo><mfrac><mi>d</mi><mn>365</mn></mfrac><mo>)</mo></mrow></mfrac></math> <span>관행적 복할인</span></p>
+        <p class="equation"><math displaystyle="true"><mi>PV</mi><mo>=</mo><mfrac><mi>FV</mi><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>r</mi><mo>)</mo></mrow><mfrac><mi>t</mi><mn>365</mn></mfrac></msup></mfrac></math> <span>이론적 복할인</span></p>
+        <p class="note">PV는 현재가격, FV는 미래현금흐름, n은 잔존연수, r은 할인율, d는 1년 이내의 잔존일수, t는 총잔존일수입니다.</p>
+      </article>
+      <article class="card" id="formula-08">
+        <h3><span class="number">08</span> 금리민감도분석</h3>
+        <p class="equation">채권투자성과 = 이자수익 + 자본손익</p>
+        <p class="equation">이자수익 = 매입금리(연 %)</p>
+        <p class="equation">자본손익 = −매도 시의 듀레이션 × 금리변동 × 연율화</p>
+      </article>
+      <article class="card" id="formula-09">
+        <h3><span class="number">09</span> 콜옵션부채권가치</h3>
+        <p class="equation">콜옵션부채권가치 = 일반채권가치 − 콜옵션가치</p>
+      </article>
+      <article class="card" id="formula-10">
+        <h3><span class="number">10</span> 패리티가격</h3>
+        <p class="equation"><span>패리티가격 =</span> <math displaystyle="true"><mfrac><mtext>주가</mtext><mtext>전환가격</mtext></mfrac></math> <span>× 10,000원</span></p>
+      </article>
+    </section>
+
+    <section class="topic" id="stocks" aria-labelledby="stocks-title">
+      <div class="topic-heading"><h2 id="stocks-title">주식에 대한 기본적 이해</h2><span class="page">교재 642쪽</span></div>
+      <article class="card" id="formula-11">
+        <h3><span class="number">11</span> PER(Price Earnings Ratio) 평가모형</h3>
+        <p class="equation"><span>PER =</span> <math displaystyle="true"><mfrac><mtext>주가</mtext><mtext>주당순이익</mtext></mfrac></math></p>
+      </article>
+      <article class="card" id="formula-12">
+        <h3><span class="number">12</span> PBR(Price to Book Value Ratio) 평가모형</h3>
+        <p class="equation"><span>PBR =</span> <math displaystyle="true"><mfrac><mtext>주가</mtext><mtext>주당순자산</mtext></mfrac></math></p>
+      </article>
+      <article class="card" id="formula-13">
+        <h3><span class="number">13</span> PSR(Price Sales Ratio) 평가모형</h3>
+        <p class="equation"><span>PSR =</span> <math displaystyle="true"><mfrac><mtext>주가</mtext><mtext>주당매출액</mtext></mfrac></math></p>
+      </article>
+      <article class="card" id="formula-14">
+        <h3><span class="number">14</span> EV/EBITDA 모형</h3>
+        <p class="equation"><span>EV/EBITDA =</span> <math displaystyle="true"><mfrac><mtext>기업가치</mtext><mtext>이자, 세금, 감가상각비 차감 전 이익</mtext></mfrac></math></p>
+      </article>
+    </section>
+
+    <section class="topic" id="performance" aria-labelledby="performance-title">
+      <div class="topic-heading"><h2 id="performance-title">위험조정성과의 측정</h2><span class="page">교재 642–643쪽</span></div>
+      <article class="card" id="formula-15">
+        <h3><span class="number">15</span> 표준편차</h3>
+        <p class="note">절대적 위험을 측정합니다.</p>
+        <p class="equation"><span>표준편차 =</span> <math displaystyle="true"><msqrt><mfrac><mrow><mo>∑</mo><msup><mrow><mo>(</mo><mtext>펀드주간수익률</mtext><mo>−</mo><mtext>평균수익률</mtext><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mtext>표본 수</mtext><mo>−</mo><mn>1</mn></mrow></mfrac></msqrt></math></p>
+      </article>
+      <article class="card" id="formula-16">
+        <h3><span class="number">16</span> 샤프비율(Sharpe Ratio)</h3>
+        <p class="equation"><span>샤프비율 =</span> <math displaystyle="true"><mfrac><mrow><msub><mi>R</mi><mi>p</mi></msub><mo>−</mo><msub><mi>R</mi><mi>f</mi></msub></mrow><msub><mi>σ</mi><mi>p</mi></msub></mfrac><mo>=</mo></math> <math displaystyle="true"><mfrac><mrow><mtext>포트폴리오 평균수익률</mtext><mo>−</mo><mtext>무위험 평균이자율</mtext></mrow><mtext>포트폴리오 수익률의 표준편차</mtext></mfrac></math></p>
+        <p class="note">R<sub>p</sub> − R<sub>f</sub>는 초과수익률입니다.</p>
+      </article>
+      <article class="card" id="formula-17">
+        <h3><span class="number">17</span> 트레이너 비율(Treynor Ratio)</h3>
+        <p class="equation"><span>트레이너 비율 =</span> <math displaystyle="true"><mfrac><mrow><msub><mi>R</mi><mi>p</mi></msub><mo>−</mo><msub><mi>R</mi><mi>f</mi></msub></mrow><msub><mi>β</mi><mi>p</mi></msub></mfrac><mo>=</mo></math> <math displaystyle="true"><mfrac><mrow><mtext>포트폴리오 평균수익률</mtext><mo>−</mo><mtext>무위험 평균이자율</mtext></mrow><mtext>포트폴리오의 체계적 위험</mtext></mfrac></math></p>
+        <p class="note">R<sub>p</sub> − R<sub>f</sub>는 초과수익률입니다.</p>
+      </article>
+      <article class="card" id="formula-18">
+        <h3><span class="number">18</span> 젠센의 알파(Jensen’s Alpha)</h3>
+        <p class="equation"><math><msub><mi>α</mi><mi>p</mi></msub><mo>=</mo><mo>(</mo><msub><mi>R</mi><mi>p</mi></msub><mo>−</mo><msub><mi>R</mi><mi>f</mi></msub><mo>)</mo><mo>−</mo><msub><mi>β</mi><mi>p</mi></msub><mo>×</mo><mo>(</mo><msub><mi>R</mi><mi>m</mi></msub><mo>−</mo><msub><mi>R</mi><mi>f</mi></msub><mo>)</mo></math></p>
+        <p class="note">R<sub>p</sub>는 집합투자기구 수익률, R<sub>f</sub>는 무위험수익률, β<sub>p</sub>는 집합투자기구의 베타, R<sub>m</sub>은 시장수익률입니다.</p>
+      </article>
+    </section>
+
+    <section class="topic" id="derivatives" aria-labelledby="derivatives-title">
+      <div class="topic-heading"><h2 id="derivatives-title">파생상품</h2><span class="page">교재 643쪽</span></div>
+      <article class="card" id="formula-19">
+        <h3><span class="number">19</span> 최대손실예상금액(VaR)</h3>
+        <p class="equation"><span>VaR = 시장가치</span> <span>× 신뢰구간에 따른 표준편차의 배수</span> <span>× 변동성</span> <span>× <math><msqrt><mtext>보유기간</mtext></msqrt></math></span></p>
+      </article>
+      <article class="card" id="formula-20">
+        <h3><span class="number">20</span> 포트폴리오 보험의 위험자산 투자금액</h3>
+        <p class="equation">보장치(Floor) = 포트폴리오의 최저가치</p>
+        <p class="equation">완충치(Cushion) = 포트폴리오 현재가치 − 보장치</p>
+        <p class="equation">승수(Multiplier) = 위험자산 투자를 위한 배수</p>
+        <p class="equation">노출치(Exposure) = 위험자산 투자금액 = 완충치 × 승수</p>
+      </article>
+      <article class="card" id="formula-21">
+        <h3><span class="number">21</span> 선물의 균형가격</h3>
+        <p class="equation"><math><msub><mi>F</mi><mi>T</mi></msub><mo>=</mo><msub><mi>S</mi><mi>t</mi></msub><mo>+</mo><msub><mi>S</mi><mi>t</mi></msub><mo>×</mo><mo>(</mo><mi>r</mi><mo>−</mo><mi>d</mi><mo>)</mo><mo>×</mo></math> <math displaystyle="true"><mfrac><mtext>잔존일수</mtext><mn>365</mn></mfrac></math></p>
+        <p class="note">T는 만기시점, t는 현재시점, r은 단기이자율, d는 배당수익률입니다. 원본은 분자에도 t를 쓰므로, 식에는 만기까지 남은 일수(T − t)를 풀어 적었습니다.</p>
+        <ul class="note">
+          <li>매수차익거래 = 선물환 매도 + 현물환 매수</li>
+          <li>매도차익거래 = 선물환 매수 + 현물환 매도</li>
+        </ul>
+      </article>
+      <article class="card" id="formula-22">
+        <h3><span class="number">22</span> 풋–콜 패리티 조건</h3>
+        <p class="equation"><math><msub><mi>p</mi><mi>t</mi></msub><mo>+</mo><msub><mi>S</mi><mi>t</mi></msub><mo>=</mo><msub><mi>c</mi><mi>t</mi></msub><mo>+</mo><msub><mi>B</mi><mi>t</mi></msub></math></p>
+      </article>
+    </section>
+
+    <section class="topic" id="real-estate" aria-labelledby="real-estate-title">
+      <div class="topic-heading"><h2 id="real-estate-title">부동산펀드</h2><span class="page">교재 644–645쪽</span></div>
+      <article class="card" id="formula-23">
+        <h3><span class="number">23</span> 건폐율</h3>
+        <p class="equation"><span>건폐율(%) =</span> <math displaystyle="true"><mfrac><mtext>건축면적</mtext><mtext>대지면적</mtext></mfrac><mo>×</mo><mn>100</mn></math></p>
+      </article>
+      <article class="card" id="formula-24">
+        <h3><span class="number">24</span> 용적률</h3>
+        <p class="equation"><span>용적률(%) =</span> <math displaystyle="true"><mfrac><mtext>건축물의 지상층 연면적</mtext><mtext>대지면적</mtext></mfrac><mo>×</mo><mn>100</mn></math></p>
+      </article>
+      <article class="card" id="formula-25">
+        <h3><span class="number">25</span> 부동산 포트폴리오의 수익률</h3>
+        <p class="equation"><math><msub><mi>R</mi><mi>p</mi></msub><mo>=</mo><msub><mi>w</mi><mi>a</mi></msub><mo>×</mo><msub><mi>R</mi><mi>a</mi></msub><mo>+</mo><msub><mi>w</mi><mi>b</mi></msub><mo>×</mo><msub><mi>R</mi><mi>b</mi></msub></math></p>
+        <p class="note">w<sub>a</sub>와 w<sub>b</sub>는 포트폴리오에서 각 자산의 비중, R<sub>a</sub>와 R<sub>b</sub>는 각 자산의 기대수익률입니다.</p>
+      </article>
+      <article class="card" id="formula-26">
+        <h3><span class="number">26</span> 수요의 가격탄력성</h3>
+        <p class="equation"><span>수요의 가격탄력성 =</span> <math displaystyle="true"><mfrac><mtext>수요량의 변화율</mtext><mtext>가격의 변화율</mtext></mfrac></math></p>
+      </article>
+      <article class="card" id="formula-27">
+        <h3><span class="number">27</span> 수요의 소득탄력성</h3>
+        <p class="equation"><span>수요의 소득탄력성 =</span> <math displaystyle="true"><mfrac><mtext>수요량의 변화율</mtext><mtext>소득의 변화율</mtext></mfrac></math></p>
+      </article>
+      <article class="card" id="formula-28">
+        <h3><span class="number">28</span> 수요의 교차탄력성</h3>
+        <p class="equation"><span>수요의 교차탄력성 =</span> <math displaystyle="true"><mfrac><mtext>수요량의 변화율</mtext><mtext>관련 부동산의 가격변화율</mtext></mfrac></math></p>
+        <p class="note">분모에는 대체 또는 보완 관계에 있는 부동산의 가격변화율을 넣습니다.</p>
+      </article>
+      <article class="card" id="formula-29">
+        <h3><span class="number">29</span> 공급의 가격탄력성</h3>
+        <p class="equation"><span>공급의 가격탄력성 =</span> <math displaystyle="true"><mfrac><mtext>공급량의 변화율</mtext><mtext>부동산 가격의 변화율</mtext></mfrac></math></p>
+      </article>
+      <article class="card" id="formula-30">
+        <h3><span class="number">30</span> DSCR(연간 원리금 상환 능력)</h3>
+        <p class="note">Debt Service Coverage Ratio</p>
+        <p class="equation"><span>DSCR =</span> <math displaystyle="true"><mfrac><mtext>영업현금흐름</mtext><mtext>원리금 상환액</mtext></mfrac></math></p>
+      </article>
+    </section>
+    <footer><a href="#top">공식 목차로 돌아가기</a></footer>
+  </main>
+</body>
+</html>
